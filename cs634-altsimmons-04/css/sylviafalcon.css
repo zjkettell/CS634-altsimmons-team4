@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Special+Elite');
+html, body, #container {
+  background-color: #F29F35;
+  font-family: 'Special Elite', cursive;
+  color: #000000;
+}
+
+h1, h2, h3 {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+
+.margin-half-em {
+  margin: 0.5em;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: fit-content;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+#sylvia-falcon {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+#social-media {
+  background-color: #000000;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 2.75rem;
+  text-align:center;
+  max-width: 256px;
+}
+
+.dropdown {
+  position: absolute;
+  z-index: 1000;
+}
+
+.dropdown-menu {
+  background-color: #FFFBC7;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  background-color: #B784A7;
+}
+
+.bar {
+  width: 1.6em;
+  height: 0.2em;
+  background-color: #FFFFFF;
+  margin: 3px 0;
+}
+
+#new-music {
+  margin-top: 0.5em;
+}
+
+.music-icons {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.music-icon {
+  width: 6em;
+  cursor: pointer;
+}
+
+.music-album {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
