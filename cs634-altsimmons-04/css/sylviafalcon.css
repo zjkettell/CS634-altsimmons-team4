@@ -10,6 +10,10 @@ h1, h2, h3 {
   text-align: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .margin-half-em {
   margin: 0.5em;
 }
@@ -26,7 +30,6 @@ h1, h2, h3 {
 #sylvia-falcon {
   text-align: center;
   width: 100%;
-  position: absolute;
 }
 
 #social-media {
@@ -75,4 +78,69 @@ h1, h2, h3 {
 .music-album {
   margin-top: 2em;
   margin-bottom: 0.5em;
+}
+
+.video {
+  max-width: 535px;
+}
+
+.event-desc, .event-buy {
+  padding: 1em;
+  border-radius: 1.25rem;
+  margin-bottom: 1em;
+}
+
+.event-desc {
+  background-color: #FFFBC7;
+  max-width: 60%;
+  margin-left: 2em;
+}
+
+.event-buy {
+  background-color: #B784A7;
+  text-align: center;
+  cursor: pointer;
+  max-width: 25%;
+  margin-left: 1em;
+}
+
+.merch-item {
+  margin-top: 1em;
+  width: 40%;
+  display: inline-table;
+}
+
+.merch-image {
+  margin-bottom: 0.7em;
+  width: 100%;
+}
+
+.buy {
+  background-color: #B784A7;
+  text-align: center;
+  cursor: pointer;
+  max-width: 35%;
+  border-radius: 1.25rem;
+  color: #000000;
+}
+
+.no-dec {
+  color: #000000;
+}
+
+.no-dec:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar {
+  background-color: #FFFBC7;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #F29F35;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #B784A7;
 }
